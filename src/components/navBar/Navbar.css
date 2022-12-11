@@ -1,0 +1,32 @@
+.navbar-container{
+    background-color: #e50000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+.container-logo img{
+    width: 7.5rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+}
+
+
+.navbar p{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    margin-inline: 20px;
+    transition: all 0.20s;
+}
+
+.navbar p:hover {
+    color: rgb(215, 215, 215);
+    transform: translate(0px, 2px) scale(1.2);
+}
